@@ -340,6 +340,7 @@ img{
 
 .case__data {
     padding: 5rem 0 3rem;
+    padding-left: 35%;
 }
 
 .case__img {
@@ -371,9 +372,14 @@ img{
 
 .discount__img {
     width: 300px;
-    position: absolute;
-    top: 4rem;
+    position: relative;
     right: -11rem;
+    top: -2rem;
+}
+
+.discount__animate {
+    position: relative;
+    bottom: -5rem; 
 }
 
 .products__line {
@@ -524,4 +530,8 @@ img{
     background-color: var(--black-color);
     opacity: 1;
 
+}
+
+.show-scroll {
+    bottom: 5rem;
 }
