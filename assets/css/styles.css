@@ -781,6 +781,26 @@ img{
         width: 100px;
     }
 
+    .case__cotainer {
+        display: flex;
+    }
+
+    .case__data {
+        padding: 50px 0px 50px 100px;
+    }
+
+    .discount__cotainer {
+        display: flex;
+    }
+
+    .discount__animate {
+        padding: 0px 100px 0px 200px;
+    }
+
+    .discount__title {
+        margin-bottom: 35px;
+    }
+
     .discount__img {
         width: 350px;
     }
